@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+align-items: center;
+background-color: rgb(150, 204, 235);
+}
+.box{
+  width: 300px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 10px 10px 9px 0.6px grey ;
+  cursor: pointer;
+}
+
+h1{
+  background-color: yellow;
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+input{
+   margin-top: 20px;
+   text-align: center;
+   margin-left:32px ;
+   padding: 6px 5px;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   outline: none;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.btn{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: #aea5b9;
+  border-color: transparent;
+  font-size: 25px;
+  cursor: pointer;
+}
+.btn2{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: #36d8ee;
+  border-color: transparent;
+  font-size: 15px;
+  color: rgb(10, 10, 2);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+ 
+  
+}
+.btn:hover{
+  background-color: yellow;
+  cursor: pointer;
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+  width:100px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.listeditem{
+  display: flex;
+}
